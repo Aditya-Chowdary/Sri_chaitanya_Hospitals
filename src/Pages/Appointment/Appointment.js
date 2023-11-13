@@ -7,6 +7,7 @@ import "./Appointment.css";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import { Helmet } from "react-helmet";
+import Appointment_images from "../Appointment-images/Appointment_images";
 
 function Appointment() {
   const [formData, setFormData] = useState({
@@ -19,6 +20,7 @@ function Appointment() {
     specialty: "", // Set a default value
     message: "",
   });
+  const [currentScreen, setCurrentScreen] = useState(1);
 
   useEffect(() => {
     // This code will run when the component is mounted
@@ -212,12 +214,13 @@ function Appointment() {
               sm={12}
               md={5}
             >
-              <Image
+              {/* <Image
                 className="img-fluid"
                 src={check}
                 alt="varun ortho"
                 style={{ borderRadius: "32px", maxHeight: "973px" }}
-              />
+              /> */}
+              <Appointment_images/>
             </Col>
           </Row>
           <div className="app_card">

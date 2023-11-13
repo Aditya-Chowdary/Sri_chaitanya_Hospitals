@@ -20,6 +20,10 @@ import { useContext } from "react";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import { Helmet } from "react-helmet";
+import img_1 from "../../Assets/Images/About/img-1-last.jpeg"
+import img_2 from "../../Assets/Images/About/img-2-last.jpeg"
+import img_3 from "../../Assets/Images/About/img-3-last.jpeg"
+import img_4 from "../../Assets/Images/About/img-4-last.jpeg"
 
 function About() {
   useEffect(() => {
@@ -301,6 +305,84 @@ function About() {
               </Card.Body>
             </Accordion.Collapse>
           </Accordion>
+        </div>
+      </div>
+      <div style={{ position: "relative", marginTop:'18vh' }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
+        >
+          <div style={{ marginBottom: "0px" }}>
+            <Image
+              src={img_1}
+              rounded
+              className="img-fluid"
+              style={{
+                height: "300px",
+                width: "300px",
+                objectFit: "cover",
+                position: 'relative',
+                top:'5vh',left:'22vh'
+              }}
+            />
+          </div>
+          <div className="grid_2">
+            <Image
+              src={img_2}
+              rounded
+              className="img-fluid"
+              style={{
+                height: "200px",
+                width: "250px",
+                objectFit: "cover",
+                position: 'relative',
+                top:'15vh',left:'23vh'
+              }}
+            />
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center", // Center items horizontally
+            justifyContent: "flex-start ",
+            height: "386px",
+          }}
+        >
+          <div className="grid_3">
+            <Image
+              src={img_3}
+              rounded
+              className="img-fluid"
+              style={{
+                height: "300px",
+                width: "200px",
+                objectFit: "cover",
+                position: 'relative',
+                bottom:'7vh',
+              left:'25vh'
+              }}
+            />
+          </div>
+          <div className="grid_3">
+            <Image
+              src={img_4}
+              rounded
+              className="img-fluid"
+              style={{
+                height: "300px",
+                width: "400px",
+                objectFit: "cover",
+                position: 'relative',
+                left:'27vh'
+              }}
+            />
+          </div>
+          
         </div>
       </div>
       <div className="about_container">

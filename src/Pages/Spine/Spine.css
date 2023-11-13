@@ -1,0 +1,72 @@
+.Spine_container {
+  margin: 0 3%;
+}
+.spine-bottom {
+  margin-bottom: 144px;
+}
+.spine-heading {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+}
+.spine-text {
+  max-width: 864px;
+  color: var(--text-icon-light-body, #3f454d);
+
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+.spine_img {
+  width: 821px;
+  height: 500px;
+}
+@media (min-width: 1200px) and (max-width: 1520px) {
+    .spine_img {
+        display: block;
+        margin: auto; /* Horizontally center the image */
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+      }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .spine_img {
+        display: block;
+        margin: auto; /* Horizontally center the image */
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+      }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .spine_img {
+        display: block;
+        margin: auto; /* Horizontally center the image */
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+      }
+}
+@media (max-width: 767px) {
+    .spine_img {
+        display: block;
+        margin: auto; /* Horizontally center the image */
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 0px;
+      }
+}

@@ -1,0 +1,256 @@
+.doctors_container {
+  margin: 329px 0 209px 0;
+}
+
+.doct_maintext {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.img_doccont {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.centered_imags {
+  margin: 0 auto; /* Horizontally center the image */
+  height: 1630px;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+
+.card1 .centered_imags:hover {
+  filter: none;
+  transition: transform 0.5s ease;
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+.card1:hover {
+  height: 820px;
+  overflow: hidden;
+  width: auto;
+  border-radius: 40px;
+  background: var(--primary-subtle, #beecff);
+}
+
+.card1 {
+  height: 820px;
+  overflow: hidden;
+  width: auto;
+  border-radius: 40px;
+  background: var(--neutral-300, #efeff1);
+  padding: 10px 113px 0px 128px;
+}
+.centered_text {
+  text-align: center;
+}
+
+.doct_name {
+  margin: 35px 0 24px 0;
+  color: var(--base-balck, #000);
+  /* Headings/H5/Medium */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 36px */
+}
+p {
+  color: var(--base-balck, #000);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+
+/* Default styles for all screen sizes */
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .doctors_container {
+    margin: 124px 0 59px 0;
+  }
+  .doct_name {
+    margin: 35px 0 24px 0;
+    color: var(--text-icon-light-heading, #252525);
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+  }
+  p {
+    color: var(--base-balck, #000);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .doct_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .centered_imags {
+    margin: 0 auto; /* Horizontally center the image */
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    height: 630px;
+  }
+  .img_doccont {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 550px;
+  }
+  .card1 {
+    height: 400px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--neutral-300, #efeff1);
+    padding: 10px 113px 0px 128px;
+  }
+  .card1 .centered_imags:hover {
+    filter: none;
+    transition: transform 0.5s ease;
+    transform: scale(1.1);
+    height: 600px; /* Scale the image to 110% on hover */
+  }
+
+  .card1:hover {
+    height: 400px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--primary-subtle, #beecff);
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+
+  .doct_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 93px */
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .card1 {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--neutral-300, #efeff1);
+    padding: 10px 113px 0px 128px;
+  }
+  .card1 .centered_imags:hover {
+    filter: none;
+    transition: transform 0.5s ease;
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+  }
+  .card1:hover {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--primary-subtle, #beecff);
+  }
+  .centered_imags {
+    margin: 0 auto; /* Horizontally center the image */
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    height: 1220px;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  .card1 {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--neutral-300, #efeff1);
+    padding: 10px 113px 0px 128px;
+  }
+  .card1 .centered_imags:hover {
+    filter: none;
+    transition: transform 0.5s ease;
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+  }
+  .card1:hover {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--primary-subtle, #beecff);
+  }
+  .centered_imags {
+    margin: 0 auto; /* Horizontally center the image */
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    height: 1220px;
+  }
+
+
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  /* Your CSS rules for large desktops go here */
+  .card1 {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--neutral-300, #efeff1);
+    padding: 10px 113px 0px 128px;
+  }
+  .card1 .centered_imags:hover {
+    filter: none;
+    transition: transform 0.5s ease;
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+  }
+  .card1:hover {
+    height: 600px;
+    overflow: hidden;
+    width: auto;
+    border-radius: 40px;
+    background: var(--primary-subtle, #beecff);
+  }
+  .centered_imags {
+    margin: 0 auto; /* Horizontally center the image */
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+    height: 1220px;
+  }
+
+}

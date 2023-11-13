@@ -1,0 +1,421 @@
+.appointment_container {
+  margin: 0 3%;
+}
+
+.app_heading {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  text-align: center;
+  margin: 72px 0 18px 0;
+}
+
+.app_sub_p {
+  color: var(--text-icon-light-body, #3f454d);
+  text-align: center;
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 20% 94px 20%;
+}
+
+.label {
+  color: var(--text-icon-light-body, #3f454d);
+  /* Body/Text/Regular */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+}
+
+.Control {
+  height: 75px;
+  border-radius: 8px;
+  border: 1px solid var(--neutral-900, #c1c3c7);
+  color: var(--text-icon-light-body, #3f454d);
+  /* Body/Text/Light */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+  background-color: #fff8f1;
+}
+
+.Control1 {
+  display: flex;
+  width: 146px;
+  padding: 20px 30px 22px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--grey-1000, #252525);
+  color: var(--text-icon-dark-heading, #fcfcfc);
+  /* Button/btn-text/Large/Regular */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+  margin-bottom: 24px;
+}
+
+.app_card {
+  margin: 176px 0 270px 0;
+  border-radius: 24px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+}
+
+.img_fluid1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover;
+}
+.hallimage-container {
+  position: relative;
+  margin-bottom: 253px;
+}
+
+/* Add a dark overlay with transparency */
+.hallimage-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+}
+
+.centered-img {
+  width: 100%;
+  height: 712px;
+}
+
+.hall_text {
+  color: var(--text-icon-dark-heading, #fcfcfc);
+  text-align: center;
+  /* Headings/H4/Medium */
+  font-family: Outfit;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 58px */
+}
+
+.hall_text_p {
+  color: var(--text-icon-dark-heading, #fcfcfc);
+  text-align: center;
+
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Background color with transparency */
+  padding: 20px;
+  color: white;
+  border-radius: 5px;
+  opacity: 1;
+}
+.app_addr_p {
+  color: var(--text-icon-light-body, #3f454d);
+
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+.app_addr_h {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  margin-bottom: 23px;
+}
+.app_card_map2 {
+  padding: 35px;
+}
+
+.app_card_map1 {
+  padding: 35px;
+}
+
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .app_card_map1 {
+    padding: 34px;
+  }
+  .app_card_map2 {
+    padding: 5px;
+  }
+ 
+  .app_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    text-align: center;
+    margin: 72px 0 18px 0;
+  }
+  
+  .app_sub_p {
+    color: var(--text-icon-light-body, #3f454d);
+    text-align: center;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+  }
+  .app_text_p{
+    color: var(--text-icon-light-body, #3f454d);
+    text-align: center;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 20% 94px 20%;
+  }
+  .app_addr_p {
+    color: var(--text-icon-light-body, #3f454d);
+  
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    overflow:auto;
+    line-height: 1.5; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .app_addr_h {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H5/SemiBold */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+    margin-bottom: 23px;
+  }
+  .hall_text {
+    color: var(--text-icon-dark-heading, #fcfcfc);
+    text-align: center;
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+  }
+  
+  .hall_text_p {
+    color: var(--text-icon-dark-heading, #fcfcfc);
+    text-align: center;
+  
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .label {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/Text/Regular */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+  }
+  
+  .Control {
+    height: 75px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-900, #c1c3c7);
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/Text/Light */
+    font-family: Outfit;
+    font-size: 18px;
+    padding: 10px 0px 11px 20px;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+    background-color: #fff8f1;
+  }
+  
+  .Control1 {
+    display: flex;
+    width: 146px;
+    padding: 10px 30px 11px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--grey-1000, #252525);
+    color: var(--text-icon-dark-heading, #fcfcfc);
+    /* Button/btn-text/Large/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width:768px) and (max-width:1520px) {
+    /* Your CSS rules for mobile devices go here */
+    .app_card_map1 {
+      padding: 34px;
+    }
+    .app_card_map2 {
+      padding: 5px;
+      position: relative;
+      overflow: hidden;
+      width: auto;
+    }
+   
+    .app_heading {
+      color: var(--text-icon-light-heading, #252525);
+      /* Headings/H3/Regular */
+      font-family: Outfit;
+      font-size: 46px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; /* 93px */
+      text-align: center;
+      margin: 72px 0 18px 0;
+    }
+    
+    .app_sub_p {
+      color: var(--text-icon-light-body, #3f454d);
+      text-align: center;
+      /* Body/TextL/Regular */
+      font-family: Outfit;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 36px */
+      letter-spacing: 0.48px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin: 0;
+    }
+    .app_text_p{
+      color: var(--text-icon-light-body, #3f454d);
+      text-align: center;
+      /* Body/TextL/Regular */
+      font-family: Outfit;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 36px */
+      letter-spacing: 0.48px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin: 0 20% 94px 20%;
+    }
+    .app_addr_p {
+      color: var(--text-icon-light-body, #3f454d);
+    
+      /* Body/TextL/Regular */
+      font-family: Outfit;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      overflow:auto;
+      line-height: 1.5; /* 36px */
+      letter-spacing: 0.48px;
+    }
+    .app_addr_h {
+      color: var(--text-icon-light-heading, #252525);
+      /* Headings/H5/SemiBold */
+      font-family: Outfit;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 100%; /* 36px */
+      margin-bottom: 23px;
+    }
+    .hall_text {
+      color: var(--text-icon-dark-heading, #fcfcfc);
+      text-align: center;
+      /* Headings/H4/Medium */
+      font-family: Outfit;
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%; /* 58px */
+    }
+    
+    .hall_text_p {
+      color: var(--text-icon-dark-heading, #fcfcfc);
+      text-align: center;
+    
+      /* Body/TextL/Regular */
+      font-family: Outfit;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%; /* 36px */
+      letter-spacing: 0.48px;
+    }
+}

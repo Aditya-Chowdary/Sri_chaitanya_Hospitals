@@ -1,0 +1,790 @@
+.Orthomain_container {
+  margin: 0 3%;
+}
+
+.Orthoheader_cont {
+  margin-bottom: 144px;
+}
+ul{
+  padding:0px;
+  li{
+    width:auto !important;
+  }
+}
+.ortho_heading {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+}
+.orthosec1 {
+  color: var(--text-icon-light-body, #3f454d);
+  width: 90%;
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  margin: 32px 0 24px 0px;
+}
+
+.orthosec2 {
+  color: var(--text-icon-light-body, #3f454d);
+  width: 90%;
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+.ortho_hip {
+  width: 379.064px;
+  height: auto;
+  transform: rotate(-29.018deg);
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: 55px;
+}
+.ortho_servicehead {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H4/Regular */
+  font-family: Outfit;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 58px */
+}
+
+.arr_ortho_icon {
+  width: 32.91px;
+  height: 27.463px;
+  flex-shrink: 0;
+}
+
+.service_buttonOrth {
+  width: 70%;
+  margin: 50px 224px 0 0;
+  justify-content: flex-end;
+  background-color: #fff8f1;
+  padding: 13px 0px;
+  border-bottom: 1px solid var(--neutral-800, #e5e5e7);
+  outline-style: hidden;
+  color: var(--text-icon-light-body, #3f454d);
+  /* Headings/H5/Regular */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+  text-align: left;
+}
+.service_button1 {
+  justify-content: flex-end;
+  background-color: #fff8f1;
+  padding: 13px 13px;
+  color: var(--text-icon-light-heading, #252525);
+  /* Button/btn-text/Large/Regular */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+  margin: 15px 0;
+}
+
+.orthocentered_img {
+  display: block;
+  margin: auto; /* Horizontally center the image */
+  text-align: center;
+  width: 90%;
+  height: auto;
+  padding: 0px;
+}
+.sec_subhead {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H5/Regular */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+}
+
+li p {
+  color: var(--text-icon-light-body, #3f454d);
+
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+
+.orthosect_heading {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H4/Medium */
+  font-family: Outfit;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 58px */
+  margin-bottom: 40px;
+}
+.orthospect_heading {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin: 16px 0;
+}
+
+.sections_div  {
+  margin:160px 0px;
+}
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .Orthomain_container {
+    margin: 144px 3% 0 3%;
+  }
+  .Orthoheader_cont {
+    margin-bottom: 72px;
+  }
+  .orthosec1 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 32px 0 24px 0px;
+  }
+  
+  .orthosec2 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .ortho_hip {
+    width: 250px;
+    height: auto;
+    transform: rotate(-29.018deg);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  
+  .arr_ortho_icon {
+    width: 32.91px;
+    height: 27.463px;
+    flex-shrink: 0;
+  }
+  .ortho_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  .sections_div  {
+    margin:80px 0px;
+  }
+  
+  .service_buttonOrth {
+    max-width: 100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 0px;
+    border-bottom: 1px solid var(--neutral-800, #e5e5e7);
+    outline-style: hidden;
+    margin: 50px 10px 0px 0px;
+    color: var(--text-icon-light-body, #3f454d);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+    text-align: left;
+  }
+  .orthosect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin-bottom: 40px;
+  }
+  .orthospect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin: 16px 0;
+  }
+  .orthocentered_img {
+    display: block;
+    margin: auto; /* Horizontally center the image */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .Orthomain_container{
+    padding:5px;
+    margin: 0 3%;
+  }
+  .sec_subhead {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  li p{
+    color: var(--text-icon-light-heading, #252525);
+
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%; /* 93px */
+    margin: 13px 0;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+  .ortho_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+  .Orthomain_container {
+    margin: 144px 3% 0 3%;
+  }
+  .Orthoheader_cont {
+    margin-bottom: 72px;
+  }
+  .orthosec1 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 32px 0 24px 0px;
+  }
+  
+  .orthosec2 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .ortho_hip {
+    width: 250px;
+    height: auto;
+    transform: rotate(-29.018deg);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  
+  .arr_ortho_icon {
+    width: 32.91px;
+    height: 27.463px;
+    flex-shrink: 0;
+  }
+  .ortho_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  .sections_div  {
+    margin:80px 0px;
+  }
+  
+  .service_buttonOrth {
+    max-width: 100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 0px;
+    border-bottom: 1px solid var(--neutral-800, #e5e5e7);
+    outline-style: hidden;
+    margin: 50px 10px 0px 0px;
+    color: var(--text-icon-light-body, #3f454d);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+    text-align: left;
+  }
+  .orthosect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin-bottom: 40px;
+  }
+  .orthospect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin: 16px 0;
+  }
+  .orthocentered_img {
+    display: block;
+    margin: auto; /* Horizontally center the image */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .Orthomain_container{
+    padding:5px;
+    margin: 0 3%;
+  }
+  .sec_subhead {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  li p{
+    color: var(--text-icon-light-heading, #252525);
+
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%; /* 93px */
+    margin: 13px 0;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  .Orthomain_container {
+    margin: 144px 3% 0 3%;
+  }
+  .Orthoheader_cont {
+    margin-bottom: 72px;
+  }
+  .orthosec1 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 32px 0 24px 0px;
+  }
+  
+  .orthosec2 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .ortho_hip {
+    width: 250px;
+    height: auto;
+    transform: rotate(-29.018deg);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  
+  .arr_ortho_icon {
+    width: 32.91px;
+    height: 27.463px;
+    flex-shrink: 0;
+  }
+  .ortho_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  .sections_div  {
+    margin:80px 0px;
+  }
+  
+  .service_buttonOrth {
+    max-width: 100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 0px;
+    border-bottom: 1px solid var(--neutral-800, #e5e5e7);
+    outline-style: hidden;
+    margin: 50px 10px 0px 0px;
+    color: var(--text-icon-light-body, #3f454d);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+    text-align: left;
+  }
+  .orthosect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin-bottom: 40px;
+  }
+  .orthospect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin: 16px 0;
+  }
+  .orthocentered_img {
+    display: block;
+    margin: auto; /* Horizontally center the image */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .Orthomain_container{
+    padding:5px;
+    margin: 0 3%;
+  }
+  .sec_subhead {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  li p{
+    color: var(--text-icon-light-heading, #252525);
+
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%; /* 93px */
+    margin: 13px 0;
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  /* Your CSS rules for large desktops go here */
+  .Orthomain_container {
+    margin: 144px 3% 0 3%;
+  }
+  .Orthoheader_cont {
+    margin-bottom: 72px;
+  }
+  .orthosec1 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 32px 0 24px 0px;
+  }
+  
+  .orthosec2 {
+    color: var(--text-icon-light-body, #3f454d);
+    width: 90%;
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  .ortho_hip {
+    width: 250px;
+    height: auto;
+    transform: rotate(-29.018deg);
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  
+  .arr_ortho_icon {
+    width: 32.91px;
+    height: 27.463px;
+    flex-shrink: 0;
+  }
+  .ortho_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+  .ortho_servicehead {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+  }
+  .sections_div  {
+    margin:80px 0px;
+  }
+  
+  .service_buttonOrth {
+    max-width: 100%;
+    margin-right: 10px;
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 0px;
+    border-bottom: 1px solid var(--neutral-800, #e5e5e7);
+    outline-style: hidden;
+    margin: 50px 10px 0px 0px;
+    color: var(--text-icon-light-body, #3f454d);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+    text-align: left;
+  }
+  .orthosect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H4/Medium */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 58px */
+    margin-bottom: 40px;
+  }
+  .orthospect_heading {
+    color: var(--text-icon-light-heading, #252525);
+  
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin: 16px 0;
+  }
+  .orthocentered_img {
+    display: block;
+    margin: auto; /* Horizontally center the image */
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .Orthomain_container{
+    padding:5px;
+    margin: 0 3%;
+  }
+  .sec_subhead {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  li p{
+    color: var(--text-icon-light-heading, #252525);
+
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 100%; /* 93px */
+    margin: 13px 0;
+  }
+}

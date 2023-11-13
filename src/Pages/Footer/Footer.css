@@ -1,0 +1,170 @@
+.footer_container {
+  border-radius: 48px 48px 0px 0px;
+  background: var(--grey-1000, #252525);
+  height: auto;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 60px 112px 60px 112px;
+}
+
+.get_toch {
+  color: #fff;
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  padding:0px;
+}
+.footer_subtext {
+  color: #fff;
+  /* Headings/H5/Regular */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 36px */
+}
+
+#p {
+  color: var(--text-icon-dark-body, #e4e4e5);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  padding:0px;
+  margin:0px;
+  width:auto;
+}
+
+#p1 {
+  color: var(--cold-grey-white, #fff);
+  /* Body/TextS/Regular */
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+}
+
+.footer_downcontainer {
+  margin-top: 24px;
+}
+
+.centered_img {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center; /* Center inline content inside the image container */
+    max-width: 100%; 
+}
+
+.arrow_img {
+    transform: rotate(-4deg);
+    flex-shrink: 0; 
+    height:100px;
+    color:#fff;
+}
+
+.sec_div{
+  gap:33px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.stylingCon{
+  display:flex;
+  justify-content:space-between;
+}
+
+.get_touch_cont{
+  display: flex;
+  flex-direction: row;
+  align-items: center,
+}
+.get_touch_cont:hover .arrow_img {
+  color: yellow; /* Background color change on hover */
+}
+
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+ 
+  .stylingCon{
+    display:flow-root;
+    justify-content:space-between;
+  }
+  
+  .get_toch {
+    font-size: 24px ;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  .get_touch_cont{
+    display: flex;
+  }
+  .get_touch_cont:hover .arrow_img {
+    color: yellow; /* Background color change on hover */
+  }
+  .arrow_img{
+    transform: rotate(-4deg);
+    flex-shrink: 0; 
+    height: 24px;
+    margin-left: 0px;
+  }
+  .footer_container {
+    border-radius: 24px 24px 0px 0px;
+    background: var(--grey-1000, #252525);
+    height: auto;
+    max-width:auto;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 20px 23px 60px 23px;
+  }
+  .footer_subtext {
+    color: #fff;
+    /* Headings/H5/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+  }
+  #p{
+    font-size: 16px;
+    max-width: 275px;
+    overflow: auto !important;
+  }
+  .sec_div{
+    gap:33px;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+  }
+  
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+ 
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) {
+  /* Your CSS rules for large desktops go here */
+ 
+}

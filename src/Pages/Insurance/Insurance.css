@@ -1,0 +1,698 @@
+.insurance_container {
+  margin: 0 3%;
+}
+
+.insu1_cont {
+  margin: 179px 0 199px 0;
+  height: auto;
+}
+
+.insu_headings {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  max-width: 869px;
+}
+
+.insu_p {
+  color: var(--text-icon-light-body, #3f454d);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  max-width: 817px;
+  max-height: 234px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+.insu_p1{
+  color: var(--text-icon-light-body, #3F454D);
+/* Body/TextL/Regular */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+letter-spacing: 0.48px;
+}
+.insuicon_contact {
+  margin-left: 15px;
+}
+
+.centerd-img {
+  max-width: 715px;
+  max-height: 715px;
+  margin-top: 50px;
+}
+
+.insu2_cont {
+  display: flex;
+  flex-direction: column;
+}
+.insu2_headings {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0px;
+  margin: 120px 130px 105px 130px;
+  /* Apply grayscale to all images by default */
+}
+
+.image-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  width: auto;
+  border: 1px solid #d9d9d9;
+  transition: filter 0.1s ease-in-out; /* Add a transition for smooth hover effect */
+  margin: 0px; /* Add margin to each cell */
+  filter: grayscale(100%);
+}
+
+.image-cell:hover {
+  filter: grayscale(0%); /* Remove grayscale on hover to show original colors */
+}
+
+.imgs {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.insu3_cont {
+  margin: 124px 0 96px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.insu3_headings {
+  color: var(--text-icon-light-heading, #252525);
+
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+}
+
+.insura_card_h2 {
+  color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  margin: 40px 0 32px 0;
+}
+
+.insucard_container {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  margin-top: 96px;
+}
+.insu_group {
+  display: grid;
+  margin-left: 15px;
+}
+.card_insurance {
+  max-width: 500px;
+  height: 550px;
+  flex-shrink: 0;
+  gap: 80px;
+  border-radius: 40px;
+  justify-content: center;
+  border: 1px solid var(--neutral-800, #e5e5e7);
+  background: var(--backgrounds-color-1, #fff8f1);
+  margin: 10px;
+  /* LG */
+  box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+    0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+}
+.card_insurance:hover {
+  box-shadow: 0px 25px 50px -12px rgba(16, 24, 40, 0.25);
+}
+
+.card_insurance:hover .centeraed_imgs {
+  transform: scale(1.55) translateY(-1%);
+  transition: transform 0.9s ease-in-out;
+}
+
+.centeraed_imgs {
+  /* Horizontally center the image */
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
+
+.img_backs {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 90px;
+  width: 90px;
+  flex-shrink: 0;
+  background-color: #4c5560;
+  border-radius: 50px;
+}
+.contact_group {
+  display: grid;
+  margin-left: 15px;
+}
+
+.insu_content {
+  max-width: fit-content;
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+
+.insu5_cont_ul {
+  margin: 124px 0 254px 0;
+}
+
+.service_buttons1 {
+  display: inline-flex;
+  padding: 20px 30px 22px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-1000, #252525);
+  color: var(--text-icon-light-heading, #252525);
+  /* Button/btn-text/Large/Regular */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+}
+
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .insu_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    max-width: 869px;
+  }
+
+  .insu_p {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 817px;
+    max-height: 234px;
+    flex-shrink: 0;
+    margin-top: 40px;
+  }
+  .insu_p1{
+    color: var(--text-icon-light-body, #3F454D);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  }
+  .centerd-img {
+    max-width: 715px;
+    max-height: 715px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .insu1_cont {
+    margin: 50px 0 29px 0;
+    height: auto;
+  }
+  .insu2_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    margin: 20px 10px 10px 10px;
+    /* Apply grayscale to all images by default */
+  }
+  .insu3_cont {
+    margin: 62px 48px 0;
+    display: flow-root;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .insu3_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .card_insurance {
+    max-width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    gap: 36px;
+    border-radius: 40px;
+    justify-content: center;
+    border: 1px solid var(--neutral-800, #e5e5e7);
+    background: var(--backgrounds-color-1, #fff8f1);
+    margin: 15px;
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+  }
+  .service_buttons1 {
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 13px;
+    color: var(--text-icon-light-heading, #252525);
+    /* Button/btn-text/Large/Regular */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+    margin: 20px;
+    align-items: center;
+  }
+  .insura_card_h2 {
+    color: var(--greyscale-text-icon-title, #141415);
+    /* Headings/H5/SemiBold */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+    margin: 20px 0 16px 0;
+  }
+  .insu_content {
+    max-width: fit-content;
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 20px 10px 20px 0px;
+  }
+  .insu5_cont_ul {
+    margin: 62px 0 104px 0;
+  }
+
+  .insu5_cont_ul li {
+    margin: 15px;
+  }
+
+  .centeraed_imgs {
+    /* Horizontally center the image */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .img_backs {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70px;
+    width: 70px;
+    flex-shrink: 0;
+    background-color: #4c5560;
+    border-radius: 50px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media(min-width:1281px) and (max-width: 1520px) {
+  .insu_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    max-width: 869px;
+  }
+
+  .insu_p {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 817px;
+    max-height: 234px;
+    flex-shrink: 0;
+    margin-top: 40px;
+  }
+  .insu_p1{
+    color: var(--text-icon-light-body, #3F454D);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  }
+  .centerd-img {
+    max-width: 715px;
+    max-height: 715px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .insu1_cont {
+    margin: 50px 0 29px 0;
+    height: auto;
+  }
+  .insu2_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    margin: 20px 10px 10px 10px;
+    /* Apply grayscale to all images by default */
+  }
+  .insu3_cont {
+    margin: 62px 48px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .insu3_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .card_insurance {
+    max-width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    gap: 36px;
+    border-radius: 40px;
+    justify-content: center;
+    border: 1px solid var(--neutral-800, #e5e5e7);
+    background: var(--backgrounds-color-1, #fff8f1);
+    margin: 15px;
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+  }
+  .service_buttons1 {
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 13px;
+    color: var(--text-icon-light-heading, #252525);
+    /* Button/btn-text/Large/Regular */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+    margin: 20px;
+    align-items: center;
+  }
+  .insura_card_h2 {
+    color: var(--greyscale-text-icon-title, #141415);
+    /* Headings/H5/SemiBold */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+    margin: 20px 0 16px 0;
+  }
+  .insu_content {
+    max-width: fit-content;
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 20px 10px 20px 0px;
+  }
+  .insu5_cont_ul {
+    margin: 62px 0 104px 0;
+  }
+
+  .insu5_cont_ul li {
+    margin: 15px;
+  }
+
+  .centeraed_imgs {
+    /* Horizontally center the image */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .img_backs {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70px;
+    width: 70px;
+    flex-shrink: 0;
+    background-color: #4c5560;
+    border-radius: 50px;
+  }
+}
+
+@media(min-width:769px) and (max-width: 1280px) {
+  .insu_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    max-width: 869px;
+  }
+
+  .insu_p {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 817px;
+    max-height: 234px;
+    flex-shrink: 0;
+    margin-top: 40px;
+  }
+  .insu_p1{
+    color: var(--text-icon-light-body, #3F454D);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  }
+  .centerd-img {
+    max-width: 715px;
+    max-height: 715px;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  .insu1_cont {
+    margin: 50px 0 29px 0;
+    height: auto;
+  }
+  .insu2_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    margin: 20px 10px 10px 10px;
+    /* Apply grayscale to all images by default */
+  }
+  .insu3_cont {
+    margin: 62px 48px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .insu3_headings {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: center;
+  }
+  .card_insurance {
+    max-width: 500px;
+    height: 500px;
+    flex-shrink: 0;
+    gap: 36px;
+    border-radius: 40px;
+    justify-content: center;
+    border: 1px solid var(--neutral-800, #e5e5e7);
+    background: var(--backgrounds-color-1, #fff8f1);
+    margin: 15px;
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+  }
+  .service_buttons1 {
+    justify-content: flex-end;
+    background-color: #fff8f1;
+    padding: 13px 13px;
+    color: var(--text-icon-light-heading, #252525);
+    /* Button/btn-text/Large/Regular */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+    letter-spacing: 0.44px;
+    margin: 20px;
+    align-items: center;
+  }
+  .insura_card_h2 {
+    color: var(--greyscale-text-icon-title, #141415);
+    /* Headings/H5/SemiBold */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+    margin: 20px 0 16px 0;
+  }
+  .insu_content {
+    max-width: fit-content;
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    margin: 20px 10px 20px 0px;
+  }
+  .insu5_cont_ul {
+    margin: 62px 0 104px 0;
+  }
+
+  .insu5_cont_ul li {
+    margin: 15px;
+  }
+
+  .centeraed_imgs {
+    /* Horizontally center the image */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .img_backs {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 70px;
+    width: 70px;
+    flex-shrink: 0;
+    background-color: #4c5560;
+    border-radius: 50px;
+  }
+}

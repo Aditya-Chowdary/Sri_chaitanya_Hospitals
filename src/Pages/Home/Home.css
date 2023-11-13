@@ -1,0 +1,236 @@
+.main_container {
+  margin: 0 3%;
+  max-width: 100%;
+}
+.main_heading {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H2/Regular */
+  font-family: Outfit;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 100vh;
+  line-height: 100%; /* 120px */
+}
+.heros {
+  position: absolute;
+  width: 660.57px;
+  height: 98vh;
+  top: -3px;
+  right: 1px;
+  flex-shrink: 0;
+  background-clip: inherit;
+  z-index: -1;
+}
+
+.main_text {
+  color: var(--text-icon-light-body, #3f454d);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  max-width: 500px;
+}
+.main_Btn {
+  border-radius: 8px;
+  background: var(--grey-1000, #252525);
+  display: flex;
+  padding: 20px 30px 22px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  letter-spacing: 0.4px;
+  font-size: 20px;
+}
+
+.main_Btn:hover {
+  background-color: #f7951d;
+  transition: transform 0.5s ease;
+  color: rgb(8, 8, 8);
+}
+.main_img {
+  width: 868px;
+  height: 1080px;
+  flex-shrink: 0;
+}
+.hero_cont_m {
+  padding: 100px 0 0 0;
+}
+/* Default styles for all screen sizes */
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 768px) {
+  /* Your CSS rules for mobile devices go here */
+  .main_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+   
+    line-height: 130%; /* 120px */
+    max-width: 320px;
+    height: auto;
+  }
+  .main_text {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 218px;
+  }
+  .heros {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    object-fit: stretch;
+    margin: auto 0;
+    top: -3px;
+    right: 1px;
+    flex-shrink: 0;
+  }
+  .hero_cont_m {
+    padding: 0px 0 0 0;
+    margin-top: 60px;
+  }
+  .main_Btn {
+    border-radius: 8px;
+    font-family: Outfit;
+    color: #fcfcfc;
+    display: flex;
+    padding: 14px 22px 16px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.32px;
+    font-size: 16px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+  .main_text {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 500px;
+  }
+  .main_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 120px */
+    width: auto;
+  }
+  .heros {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    object-fit: stretch;
+    margin: auto 0;
+    top: -3px;
+    right: 1px;
+    flex-shrink: 0;
+    background-clip: inherit;
+    z-index: -1;
+  }
+  .hero_cont_m {
+    padding: 0px 0 0 0;
+    margin-top: 60px;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  .main_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 120px */
+    max-width: 540px;
+    height: auto;
+  }
+  .main_text {
+    color: var(--text-icon-light-body, #3f454d);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width: 500px;
+  }
+  .heros {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    object-fit: stretch;
+    margin: auto 0;
+    top: -3px;
+    right: 1px;
+    flex-shrink: 0;
+  }
+  .hero_cont_m {
+    padding: 0px 0 0 0;
+    margin-top: 60px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  /* Your CSS rules for large desktops go here */
+  .main_heading {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+    max-width: 940px;
+    padding-top: 120px;
+  }
+  .heros {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin: auto 0;
+    top: -3px;
+    right: 1px;
+    flex-shrink: 0;
+    background-clip: inherit;
+    z-index: -1;
+  }
+  .hero_cont_m {
+    padding: 0px 0 0 0;
+  }
+}

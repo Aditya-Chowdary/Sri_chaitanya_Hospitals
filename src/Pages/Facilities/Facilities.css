@@ -1,0 +1,357 @@
+.facilitiy_maintext {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin-bottom: 57px;
+}
+
+.carousel_Cont {
+  border-radius: 32px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+  /* Bg_Blur */
+  padding: 30px;
+  backdrop-filter: blur(3.5px);
+  width:80%;
+  margin-left: 5px;
+
+}
+
+.sliding_container {
+  display: flex;
+  gap: 60px;
+}
+
+.card_cont {
+  border-radius: 40px;
+  border: 1px solid var(--neutral-300, #efeff1);
+  background: var(--backgrounds-color-1, #fff8f1);
+  /* LG */
+  box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+    0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin: 5px;
+  padding: 16px;
+  width:1220px;
+  height:520px;
+}
+
+.centered_img_f {
+  display: block;
+  margin: 0 auto; /* Horizontally center the image */
+  text-align: center;
+  max-height: 450px;
+  padding: 5px;
+  max-width: 500px;
+  object-fit:contain;
+  padding:5px;
+}
+
+.facility_heading {
+  color: var(--greyscale-text-icon-title, #141415);
+/* Headings/H5/SemiBold */
+font-family: Outfit;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 36px */
+}
+
+.facility_subtext {
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  width:auto;
+}
+/* Default styles for all screen sizes */
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 768px) {
+  /* Your CSS rules for mobile devices go here */
+  .facilitiy_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin-bottom: 57px;
+  }
+  .facility_heading {
+    color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  }
+  
+  .facility_subtext {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width :400px;
+  }
+  .card_cont {
+    border-radius: 40px;
+    border: 1px solid var(--neutral-300, #efeff1);
+    background: var(--backgrounds-color-1, #fff8f1);
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 5px;
+    padding: 16px;
+    max-width:520px;
+    height:auto;
+  }
+  .carousel_Cont {
+    border-radius: 32px;
+    border: 1px solid var(--neutral-1000, #a1a4ac);
+    /* Bg_Blur */
+    padding: 15px;
+    backdrop-filter: blur(3.5px);
+    width:90%;
+    max-height: 700px;
+  }
+  .centered_img_f {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center;
+    height: 290px;
+    padding: 5px;
+    max-width: 250px;
+    object-fit:cover;
+    padding:5px;
+  }
+
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+  .facilitiy_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin-bottom: 57px;
+  }
+  .facility_heading {
+    color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  }
+  
+  .facility_subtext {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width :400px;
+  }
+  .card_cont {
+    border-radius: 40px;
+    border: 1px solid var(--neutral-300, #efeff1);
+    background: var(--backgrounds-color-1, #fff8f1);
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 5px;
+    padding: 16px;
+    max-width:520px;
+    height:auto;
+  }
+  .carousel_Cont {
+    border-radius: 32px;
+    border: 1px solid var(--neutral-1000, #a1a4ac);
+    /* Bg_Blur */
+    padding: 15px;
+    backdrop-filter: blur(3.5px);
+    width:80%;
+  }
+  .centered_img_f {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center;
+    height: 250px;
+    padding: 5px;
+    max-width: 250px;
+    object-fit:cover;
+    padding:5px;
+  }
+ 
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  .facilitiy_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin-bottom: 57px;
+  }
+  .facility_heading {
+    color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  }
+  
+  .facility_subtext {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width :400px;
+  }
+  .card_cont {
+    border-radius: 40px;
+    border: 1px solid var(--neutral-300, #efeff1);
+    background: var(--backgrounds-color-1, #fff8f1);
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 5px;
+    padding: 16px;
+    max-width:520px;
+    height:auto;
+  }
+  .carousel_Cont {
+    border-radius: 32px;
+    border: 1px solid var(--neutral-1000, #a1a4ac);
+    /* Bg_Blur */
+    padding: 15px;
+    backdrop-filter: blur(3.5px);
+    width:90%;
+  }
+  .centered_img_f {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center;
+    height: 250px;
+    padding: 5px;
+    max-width: 450px;
+    max-height: 450px;
+    object-fit:cover;
+    padding:5px;
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  /* Your CSS rules for large desktops go here */
+  .facilitiy_maintext {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin-bottom: 57px;
+  }
+  .facility_heading {
+    color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  }
+  
+  .facility_subtext {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    max-width :400px;
+  }
+  .card_cont {
+    border-radius: 40px;
+    border: 1px solid var(--neutral-300, #efeff1);
+    background: var(--backgrounds-color-1, #fff8f1);
+    /* LG */
+    box-shadow: 0px 10px 15px -3px rgba(16, 24, 40, 0.1),
+      0px 4px 6px -4px rgba(16, 24, 40, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    margin: 5px;
+    padding: 16px;
+    max-width:520px;
+    height:auto;
+  }
+  .carousel_Cont {
+    border-radius: 32px;
+    border: 1px solid var(--neutral-1000, #a1a4ac);
+    /* Bg_Blur */
+    padding: 15px;
+    backdrop-filter: blur(3.5px);
+    width:80%;
+  }
+  .centered_img_f {
+    display: block;
+    margin: 0 auto; /* Horizontally center the image */
+    text-align: center;
+    max-height: 400px;
+    padding: 5px;
+    max-width: 450px;
+    object-fit:contain;
+    padding:5px;
+  }
+}
+ 

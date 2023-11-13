@@ -1,0 +1,129 @@
+
+.scroll_textCont {
+  text-align: center;
+  margin: 207px 0 107px 0;
+}
+
+.text {
+   /* Headings/H1/SemiBold */
+   font-family: Outfit;
+   font-size: 151px;
+   font-style: normal;
+   letter-spacing: 5px;
+   line-height: 100%; /* 151px */
+   color: #252525;
+   -webkit-text-stroke:1px black ;
+}
+.scrollText {
+  /* Headings/H1/SemiBold */
+  font-family: Outfit;
+  font-size: 151px;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 100%; /* 151px */
+  color: #252525;
+  -webkit-text-stroke:1px rgb(230, 218, 218) ;
+}
+.testimonial_p1 {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H4/Regular */
+  font-family: Outfit;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 58px */
+  max-width: 785px;
+  margin-left: 35px;
+}
+
+.test_cont {
+  max-width: 678px;
+  max-height: 386px;
+}
+.grid_2 {
+   margin: 100px 0px 0px 350px;
+}
+.grid_3{
+   margin: 0px 0px 35px 400px;
+}
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .testimonial_p1 {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+    max-width: 385px;
+  }
+  .test_cont {
+    width: auto;
+    height: auto;
+  }
+  .text {
+    color: var(--text-icon-light-heading, #252525);
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 36.4px */
+  }
+  .grid_2 {
+    margin: 0 0 20px 0px;
+  }
+  .grid_3{
+    margin: 0 0 20px 0px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1520px) {
+  .testimonial_p1 {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+    max-width: 385px;
+  }
+  .test_cont {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   /* Your CSS rules for mobile devices go here */
+   .testimonial_p1 {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H4/Regular */
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 58px */
+    max-width: 385px;
+  }
+  .test_cont {
+    width: auto;
+    height: auto;
+  }
+  .text {
+    color: var(--text-icon-light-heading, #252525);
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 36.4px */
+  }
+  .grid_2 {
+    margin: 0 0 20px 0px;
+  }
+  .grid_3{
+    margin: 0 0 20px 0px;
+  }
+}

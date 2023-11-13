@@ -1,0 +1,19 @@
+body {
+  max-width:100%;
+  margin: 0;
+  @font-face {
+    font-family: Outfit,sans-serif;
+    src: url("../src/Assets/Fonts/Outfit-Regular.ttf")  format('truetype');
+  }
+  font-family: 'Outfit', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFF8F1;
+}
+
+code {
+  font-family: Outfit, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,291 @@
+.testimonial_cont {
+  gap: 73px;
+  margin: 300px 0;
+  padding : 22px;
+}
+
+.testimonial_heading {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin-bottom: 73px;
+}
+
+.testimo_subtex {
+  color: var(--text-icon-light-body, #3f454d);
+  /* Body/TextL/Light */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+.testimo_headin {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+}
+
+.carousel_Cont {
+  border-radius: 32px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+  /* Bg_Blur */
+  padding: 30px;
+  backdrop-filter: blur(3.5px);
+  width:80%;
+  margin-left: 15px;;
+}
+
+.testimonial_p {
+    color: var(--text-icon-light-heading, #252525);
+/* Headings/H4/Regular */
+font-family: Outfit;
+font-size: 58px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 58px */
+}
+
+#testi_imgs {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+#testi_imgs2 {
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+
+
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+ 
+.testimonial_heading {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin-bottom: 73px;
+}
+.carousel_Cont {
+  border-radius: 32px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+  /* Bg_Blur */
+  padding: 15px;
+  backdrop-filter: blur(3.5px);
+  width:90%;
+}
+.testimo_headin {
+  color: var(--greyscale-text-icon-title, #141415);
+/* Headings/H5/SemiBold */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 36px */
+}
+
+.testimo_subtex {
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+#testi_imgs {
+  height: 200px;
+  width: 400px;
+  object-fit:scale-down;
+}
+
+#testi_imgs2 {
+  height: 20px;
+  width: auto;
+  object-fit: cover;
+}
+
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+
+  .testimonial_heading {
+    color: var(--base-balck, #000);
+    /* Headings/H3/Regular */
+    font-family: Outfit;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 93px */
+    margin-bottom: 73px;
+  }
+  .carousel_Cont {
+    border-radius: 32px;
+    border: 1px solid var(--neutral-1000, #a1a4ac);
+    /* Bg_Blur */
+    padding: 15px;
+    backdrop-filter: blur(3.5px);
+    width:90%;
+  }
+  .testimo_headin {
+    color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/SemiBold */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 36px */
+  }
+  
+  .testimo_subtex {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+  }
+  #testi_imgs {
+    height: 200px;
+    width: 400px;
+    object-fit:scale-down;
+  }
+  
+  #testi_imgs2 {
+    height: 20px;
+    width: auto;
+    object-fit: cover;
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+ 
+.testimonial_heading {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin-bottom: 73px;
+}
+.carousel_Cont {
+  border-radius: 32px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+  /* Bg_Blur */
+  padding: 15px;
+  backdrop-filter: blur(3.5px);
+  width:90%;
+}
+.testimo_headin {
+  color: var(--greyscale-text-icon-title, #141415);
+/* Headings/H5/SemiBold */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 36px */
+}
+
+.testimo_subtex {
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+#testi_imgs {
+  height: 200px;
+  width: 400px;
+  object-fit:scale-down;
+}
+
+#testi_imgs2 {
+  height: 20px;
+  width: auto;
+  object-fit: cover;
+}
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  
+.testimonial_heading {
+  color: var(--base-balck, #000);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 93px */
+  margin-bottom: 73px;
+}
+.carousel_Cont {
+  border-radius: 32px;
+  border: 1px solid var(--neutral-1000, #a1a4ac);
+  /* Bg_Blur */
+  padding: 15px;
+  backdrop-filter: blur(3.5px);
+  width:90%;
+}
+.testimo_headin {
+  color: var(--greyscale-text-icon-title, #141415);
+/* Headings/H5/SemiBold */
+font-family: Outfit;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 36px */
+}
+
+.testimo_subtex {
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+}
+#testi_imgs {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+
+#testi_imgs2 {
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+}
+ 

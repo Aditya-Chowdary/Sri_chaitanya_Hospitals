@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+
+@font-face {
+  font-family: Outfit;
+  src: url("../src/Assets/Fonts/Outfit-Regular.ttf")  format('opentype');
+}

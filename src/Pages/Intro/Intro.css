@@ -1,0 +1,135 @@
+.intro_container {
+  margin: 275px 0 181px 0;
+}
+.maintext_intro {
+  color: var(--text-icon-light-heading, #252525);
+  /* Headings/H3/Regular */
+  font-family: Outfit;
+  font-size: 93px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 71vh;
+  line-height: 100%; /* 93px */
+}
+
+.subtext_intro {
+  color: var(--greyscale-text-icon-title, #141415);
+  /* Headings/H5/Medium */
+  font-family: Outfit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 36px */
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.subtext_text {
+  color: var(--greyscale-text-icon-body, #4f5154);
+  /* Body/TextL/Regular */
+  font-family: Outfit;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 71vh;
+  line-height: 150%; /* 36px */
+  letter-spacing: 0.48px;
+  align-self: stretch;
+}
+
+.intro_btn {
+  color: var(--text-icon-light-heading, #252525);
+  /* Button/btn-text/Large/Regular */
+  font-family: Outfit;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.44px;
+  border-radius: 8px;
+border: 1px solid var(--grey-1000, #252525);
+  padding: 20px 30px 22px 30px;
+  margin-top: 40px;
+}
+
+/* Styles for screens with a maximum width of 767px (e.g., mobile phones) */
+@media (max-width: 767px) {
+  /* Your CSS rules for mobile devices go here */
+  .intro_container {
+    margin: 137px 0 90px 0;
+  }
+  .maintext_intro{
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 120px */
+  }
+  .subtext_text {
+    color: var(--greyscale-text-icon-body, #4f5154);
+    /* Body/TextL/Regular */
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+    letter-spacing: 0.48px;
+    align-self: stretch;
+  }
+  .subtext_intro {
+    color: var(--greyscale-text-icon-title, #141415);
+    /* Headings/H5/Medium */
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; /* 36px */
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 991px (e.g., tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Your CSS rules for tablets go here */
+  .maintext_intro {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+}
+
+/* Styles for screens with a minimum width of 992px and a maximum width of 1199px (e.g., small desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Your CSS rules for small desktops go here */
+  .maintext_intro {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+}
+
+/* Styles for screens with a minimum width of 1200px and above (e.g., large desktops) */
+@media (min-width: 1200px) and (max-width: 1520px) {
+  /* Your CSS rules for large desktops go here */
+  .maintext_intro {
+    color: var(--text-icon-light-heading, #252525);
+    /* Headings/H2/Regular */
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 120px */
+  }
+}
+ 

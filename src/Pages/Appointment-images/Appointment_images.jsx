@@ -21,7 +21,8 @@ const Appointment_images = () => {
       <img
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%", height: "100%",objectFit:'fill' }}
+
       />
     </div>
   );

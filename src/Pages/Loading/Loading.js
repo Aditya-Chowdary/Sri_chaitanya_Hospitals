@@ -6,6 +6,7 @@ import opta from "../../Assets/Images/eyeLoad.png";
 import orto from "../../Assets/Images/OrthoLoad.png";
 import neuro from "../../Assets/Images/neuroLoad.png";
 import dero from "../../Assets/Images/muscleman.png";
+import spine from "../../Assets/Images/spineLoad.svg";
 
 function Loading() {
   const [currentScreen, setCurrentScreen] = useState(1);
@@ -58,8 +59,8 @@ function Loading() {
       {currentScreen === 3 && (
         <div className={`screens screens${currentScreen}`}>
           <div style={{ display: "flex", flexDirection: "row", gap: "26px" }}>
-            <h2 className="load_heading">Neurology</h2>
-            <Image src={neuro} alt="Orthopaedic_logo" />
+            <h2 className="load_heading">Spine</h2>
+            <Image src={spine} alt="Orthopaedic_logo" />
           </div>
         </div>
       )}

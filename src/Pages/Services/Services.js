@@ -2,7 +2,7 @@ import React from "react";
 import { Accordion, Button, Col, Image, Row } from "react-bootstrap";
 import ortho from "../../Assets/Images/ortho.png";
 import optha from "../../Assets/Images/optha.png";
-import neuro from "../../Assets/Images/neuro.png";
+import spine from "../../Assets/Images/spine.png";
 
 import "./Services.css";
 import { useNavigate } from "react-router-dom";
@@ -109,26 +109,26 @@ function Services() {
               </Accordion.Item>
             </div>
 
-            {/* <div>
+            <div>
               <Accordion.Item className="acordion_item" eventKey="2">
                 <Accordion.Header className="acordion">
-                  <h1 className="accord_maintext">NEUROLOGY</h1>
+                  <h1 className="accord_maintext">SPINE</h1>
                 </Accordion.Header>
                 <Accordion.Body>
                   <Row>
                     <Col>
                       <Row>
                         <p className="accord_subtext">
-                          Trust in our neurology experts to provide
-                          compassionate care for a wide range of neurological
-                          conditions. We are committed to improving brain and
-                          nervous system health, ensuring the best possible
-                          outcomes for our patients.
+                          Your spine health is our utmost priority. Our
+                          experienced team is committed to providing
+                          personalized care, whether you need routine spinal
+                          examinations, treatment for spine-related conditions,
+                          or surgical interventions for fixations.
                         </p>
                       </Row>
                       <Button
                         onClick={() => {
-                          navigate("/neurology");
+                          navigate("/spine");
                         }}
                         className="viewmore_btn"
                         variant="outline-dark"
@@ -139,14 +139,14 @@ function Services() {
                     <Col md={6} sm={12}>
                       <Image
                         className="centered_imag"
-                        src={neuro}
+                        src={spine}
                         alt="ortho"
                       />
                     </Col>
                   </Row>
                 </Accordion.Body>
               </Accordion.Item>
-            </div> */}
+            </div>
           </div>
         </Accordion>
       </div>

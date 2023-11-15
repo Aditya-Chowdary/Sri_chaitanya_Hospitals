@@ -1,11 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import "./Spine.css";
 import { Button, Col, Image, Row } from "react-bootstrap";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import spine from "../../Assets/Images/Ortho/spine.jpg";
+import ortho from "../../Assets/Images/Ortho/shoulder.jpg";
+import opth from "../../Assets/Images/opthalmology.jpg";
 
 function Spine() {
+  const navigate = useNavigate();
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    // This code will run when the component is mounted
+    window.scrollTo(0, 0); // Reset scroll position to the top
+  }, []);
+  const navigateToOrthopaedics = () => {
+    setLoading(true); // Show loading component
+    setTimeout(() => {
+      navigate("/orthopaedics"); // Simulate navigation delay
+      setLoading(false); // Hide loading component after navigation
+    }, 2000); // Adjust the delay as needed
+  };
+  const navigateToOphthalmology = () => {
+    setLoading(true); // Show loading component
+    setTimeout(() => {
+      navigate("/opthalmology"); // Simulate navigation delay
+      setLoading(false); // Hide loading component after navigation
+    }, 2000); // Adjust the delay as needed
+  };
   return (
     <>
       <div className="Spine_container">
@@ -70,6 +94,92 @@ function Spine() {
         </Row>
       </div>
       <div>
+        <div className="Orthomain_container">
+          <div className="Otherspecs">
+            <h1 className="spect_heading">Explore Other Specialties</h1>
+            <Row style={{ marginBottom: "52px" }}>
+              <Col sm={12} md={6}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "24px",
+                  }}
+                >
+                  <div style={{ height: "520px", overflow: "hidden" }}>
+                    <Image
+                      src={ortho}
+                      alt="joint"
+                      className="centered_img"
+                      rounded
+                    />
+                  </div>
+
+                  <div>
+                    <h1 className="sect_heading">Orthopaedics</h1>
+                    <section className="orthosec2">
+                      We prioritize your musculoskeletal health, offering
+                      exceptional orthopaedic care. Our skilled team is
+                      dedicated to preserving and enhancing your bone and joint
+                      well-being, providing tailored services, from routine
+                      assessments to advanced interventions and surgeries
+                    </section>
+                  </div>
+                  <div>
+                    <Button
+                      onClick={navigateToOrthopaedics}
+                      className="service_button1"
+                      variant="outline-dark"
+                    >
+                      View More
+                    </Button>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={12} md={6}>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    gap: "24px",
+                  }}
+                >
+                  <div style={{ height: "520px", overflow: "hidden" }}>
+                    <Image
+                      src={opth}
+                      alt="joint"
+                      className="centered_img"
+                      rounded
+                    />
+                  </div>
+
+                  <div>
+                    <h1 className="sect_heading">Ophthalmology</h1>
+                    <section className="orthosec2">
+                      Your vision is our priority, and we are dedicated to
+                      providing you with world-class eye care services. Our team
+                      of highly skilled ophthalmologist and staff is committed
+                      to preserving and enhancing your eye health. Whether you
+                      require routine eye examinations, treatment for eye
+                      conditions, or surgical interventions, we are here to
+                      deliver exceptional care tailored to your individual
+                      needs.
+                    </section>
+                    <div>
+                      <Button
+                        onClick={navigateToOphthalmology}
+                        className="service_button1"
+                        variant="outline-dark"
+                      >
+                        View More
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </div>
         <Footer />
       </div>
     </>

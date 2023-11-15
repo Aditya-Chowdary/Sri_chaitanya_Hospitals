@@ -7,7 +7,7 @@ import paceoem from "../../Assets/Images/Optha/phacoemulsification.jpg";
 import lasik from "../../Assets/Images/Optha/lasik.jpg";
 import icl from "../../Assets/Images/Optha/icls.jpg";
 import pytergium from "../../Assets/Images/Optha/pytegrium.jpg";
-import retinalinj from "../../Assets/Images/Optha/retinal_inj.png";
+import retinalinj from "../../Assets/Images/Optha/retinal_t.jpeg";
 import botox from "../../Assets/Images/Optha/botox.jpg";
 import clc from "../../Assets/Images/Optha/contact_lens.jpg";
 import ortho from "../../Assets/Images/Ortho/shoulder.jpg";
@@ -669,14 +669,12 @@ function Opthalmology() {
                     <div>
                       <h1 className="sect_heading">Orthopaedics</h1>
                       <section className="orthosec2">
-                        Your vision is our priority, and we are dedicated to
-                        providing you with world-class eye care services. Our
-                        team of highly skilled ophthalmologist and staff is
-                        committed to preserving and enhancing your eye health.
-                        Whether you require routine eye examinations, treatment
-                        for eye conditions, or surgical interventions, we are
-                        here to deliver exceptional care tailored to your
-                        individual needs.
+                        We prioritize your musculoskeletal health, offering
+                        exceptional orthopaedic care. Our skilled team is
+                        dedicated to preserving and enhancing your bone and
+                        joint well-being, providing tailored services, from
+                        routine assessments to advanced interventions and
+                        surgeries
                       </section>
                     </div>
                     <div>

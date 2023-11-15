@@ -73,7 +73,7 @@ function Doctors() {
       <Row style={{ padding: "15px" }}>
         {doctorsData.map((doctor, index) => (
           <Col md={6} key={index}>
-            <div className="card1" data-text={doctor.hoverText}>
+            <Card className="card1" data-text={doctor.hoverText}>
               <div className="img_doccont">
                 <Image
                   className="centered_imags"
@@ -82,7 +82,7 @@ function Doctors() {
                 />
                 <div className="image-overlay">{doctor.hoverText}</div>
               </div>
-            </div>
+            </Card>
 
             <div className="centered_text">
               <h4 className="doct_name">

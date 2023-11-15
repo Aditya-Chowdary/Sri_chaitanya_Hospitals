@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Image } from "react-bootstrap";
 import opta from "../../Assets/Images/eyeLoad.png";
 import orto from "../../Assets/Images/OrthoLoad.png";
-import neuro from "../../Assets/Images/neuroLoad.png";
+
 import dero from "../../Assets/Images/muscleman.png";
 import spine from "../../Assets/Images/spineLoad.svg";
 
